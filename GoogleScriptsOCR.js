@@ -1,3 +1,9 @@
+/*
+  For Folder ID, go to the folder in which you have the files saved in Google Drive
+  Look at URL, and at the end of the URL, there should be a long combination of
+  numbers and letters follower(ex. https://drive.google.com/drive/u/2/folders/1AIcg-ZqrvsKvSmYDHW1r9u17RCKJ2k9O, what comes after folders is the ID)
+  Copy that ID into the given areas as a String(with quotes).
+  */
 function runOCR() {
   var files = DriveApp.getFolderById(/* Insert Folder ID */).getFiles(); // get the folder containing all of the files
   var rootFolder = DriveApp.getFolderById(/* Insert Folder ID */);
