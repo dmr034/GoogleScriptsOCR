@@ -1,5 +1,5 @@
 # GoogleScriptsOCR
-Turn a Folder with Image Files(PNG) to Google Docs Text Files(Google Docs)
+Turn a Folder with Image Files(PNG) to Google Docs Text Files
 
 ## How To:
 
